@@ -31,6 +31,8 @@ export class AuthService {
     return link;
   }
 
+ 
+
   // invoked in app.component on load
   check_token_fragment() {
     // parse the fragment
